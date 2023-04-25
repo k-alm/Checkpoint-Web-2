@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-fundo: #f1faee;
+    --cor-cabecalho: #1d3557;
+    --cor-cabecalho-menu: #a8dadc;
+
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-cabecalho);
+}
+
+.cabecalho__links{
+    text-decoration: none;
+    color: var(--cor-cabecalho-menu);
+    margin: 0 3rem;
+    padding: 2rem 1.5rem;
+}
+
+.cabecalho nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.cabecalho img{
+    margin-left: 2rem;
+}
+
