@@ -8,13 +8,15 @@
 }
 
 .content {
+    display: flex;
+    justify-content: center;
     padding: 40px;
 }
   
 .card {
     width: 300px;
     padding: 20px;
-    background-color: #457b9d;
+    background-color: var(--cor-cabecalho);
     margin-right: 20px;
     margin-bottom: 20px;
     display: inline-block;
@@ -37,4 +39,17 @@
 
 .card figcaption {
     font-size: 14px;
+}
+
+.main__titulo{
+    text-align: center;
+}
+
+.legenda{
+    font-size: 12px;
+}
+
+figcaption{
+    font-family: var(--fonte-principal);
+    color: var(--cor-cabecalho-menu);
 }
