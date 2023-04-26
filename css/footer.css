@@ -1,0 +1,20 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__titulo{
+    margin: auto;
+}
+
+footer nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav img{
+    width: 15%;
+    height: 15%;
+}
