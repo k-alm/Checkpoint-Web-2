@@ -34,8 +34,4 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .footer-images img {
-    max-width: 80px;
-    margin: 5px;
-  }
 }
