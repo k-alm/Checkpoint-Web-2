@@ -1,23 +1,35 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-  @import url("./footer.css");
-  @import url("./main.css");
-  @import url("./header.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url("./footer.css");
+@import url("./main.css");
+@import url("./header.css");
+@import url("./style-768px.css");
+@import url("./style-468px.css");
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root{
-    --cor-fundo: #f1faee;
-    --cor-cabecalho: #1d3557;
-    --cor-cabecalho-menu: #a8dadc;
+  --cor-fundo: #f1faee;
+  --cor-cabecalho: #1d3557;
+  --cor-cabecalho-menu: #a8dadc;
 
-    --fonte-principal: 'Montserrat', sans-serif;
+  --fonte-principal: 'Montserrat', sans-serif;
 }
 
 body{
-    background-color: var(--cor-fundo);
+  background-color: var(--cor-fundo);
+  color: var(--cor-cabecalho-menu);
+  font-size: 1.5rem;
+  font-family: var(--fonte-principal);
+  font-weight: 600;
+  overflow: none;
 }
+
+h2{
+  margin: 0 3rem;
+  padding: 2rem 1.5rem;
+}
+
