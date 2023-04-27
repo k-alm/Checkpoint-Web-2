@@ -1,20 +1,18 @@
 .rodape{
-    display: flex;
-    flex-direction: column;
-}
-
-.rodape__titulo{
-    margin: auto;
-}
-
-footer nav{
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: var(--cor-cabecalho);
 }
 
-footer nav img{
-    width: 15%;
-    height: 15%;
+.rodape__logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__links{
+    font-size: 1rem;
+}
+
+footer nav img {
+    width: 6rem;
+    height: 6rem;
 }
