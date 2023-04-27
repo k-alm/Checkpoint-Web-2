@@ -2,12 +2,8 @@
     display: grid;
 }
 
-.container{
-    display: inline-block;
-    background-color: #FFF;
-}
-
 .content {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     padding: 2.5rem;
@@ -69,15 +65,4 @@
 
 .legenda{
     font-size: 0.7rem;
-}
-
-figcaption{
-    font-family: var(--fonte-principal);
-    color: var(--cor-cabecalho-menu);
-}
-
-.figcaption__paginas{
-    font-family: var(--fonte-principal);
-    color: var(--cor-cabecalho);
-    font-size: 0.8rem;
 }
