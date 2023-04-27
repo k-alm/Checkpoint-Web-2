@@ -19,6 +19,7 @@
     font-family: var(--fonte-principal);
     color: var(--cor-cabecalho);
     font-size: 1.5rem;
+    margin-left: 0;
 }
 
 .figure__paginas{
