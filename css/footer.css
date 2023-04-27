@@ -1,6 +1,7 @@
 .rodape{
     text-align: center;
     background-color: var(--cor-cabecalho);
+    height: 100%;
 }
 
 .rodape__logos{

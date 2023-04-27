@@ -7,7 +7,7 @@
     background-color: var(--cor-cabecalho);
 }
 
-.cabecalho__links{
+.menu li a{
     text-decoration: none;
     margin: 1.25rem;
     color: var(--cor-cabecalho-menu);
