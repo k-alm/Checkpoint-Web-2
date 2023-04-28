@@ -1,5 +1,4 @@
-@media (max-width: 768px) {
-  /* cabeçalho */
+@media (max-width: 900px) {
 .cabecalho{
   justify-content: center;
 }
@@ -12,7 +11,6 @@
   margin-bottom: 10px;
 }
 
-/* conteúdo */
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +25,6 @@
   max-width: 100%;
 }
 
-/* rodapé */
 .footer h2 {
   text-align: center;
 }
@@ -43,7 +40,11 @@
   flex-wrap: wrap;
 }
 
-.img__paginas{
-  flex-shrink: 1;
+.h2__paginas{
+  text-align: center;
+}
+
+.figure__paginas{
+  text-align: center;
 }
 }
